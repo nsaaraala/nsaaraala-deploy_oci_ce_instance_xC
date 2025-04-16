@@ -65,8 +65,8 @@ Refer to the F5 Distributed Cloud documentation to retrieve API credentials and 
 
    terraform apply
 
-To remove all resources:
+5. To remove all resources:
 
-terraform destroy
+    terraform destroy
 
 Note: Need to add a newly created security list to the existing public subnet.
