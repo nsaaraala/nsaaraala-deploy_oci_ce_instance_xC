@@ -14,10 +14,10 @@ This Terraform project sets up a Secure Mesh Site v2 using Volterra (F5 Distribu
 This project uses the following Terraform providers:
 
 ### OCI Authentication
-Refer to the OCI documentation to gather the necessary authentication details such as `tenancy_ocid`, `user_ocid`, `fingerprint`, and your `private_key_path`.
+Refer to the OCI documentation ( https://docs.oracle.com/en-us/iaas/Content/dev/terraform/tutorials/tf-provider.htm#:~:text=The%20tenancy%20is%20the%20compartment,%3E%20%22%20outputs%20the%20same%20list.&text=In%20Terraform%2C%20to%20fetch%20data,GET%20method%20in%20REST%20APIs.) to gather the necessary authentication details such as `tenancy_ocid`, `user_ocid`, `fingerprint`, and your `private_key_path`.
 
 ### F5 Distributed Cloud (Volterra) Authentication
-Refer to the F5 Distributed Cloud documentation to retrieve API credentials and connection details including your `api_p12_file`, `api_url`.
+Refer to the F5 Distributed Cloud documentation ( https://docs.cloud.f5.com/docs-v2/administration/how-tos/user-mgmt/Credentials ) to retrieve API credentials and connection details including your `api_p12_file`, `api_url`.
 
 ## Files Included
 - **main.tf** – Resources for Volterra Secure Mesh Site v2, OCI custom image, instance, and networking.
